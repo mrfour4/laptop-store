@@ -1,9 +1,9 @@
-import { Button } from "@/components/ui/button";
+import { Hero } from "@/features/home/components/hero";
 
 export default function AppPage() {
-    return (
-        <div>
-            <Button>Click me</Button>
-        </div>
-    );
+  return (
+    <>
+      <Hero />
+    </>
+  );
 }
